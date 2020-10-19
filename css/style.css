@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Aladin&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Aladin", cursive;
+  letter-spacing: 2px;
+}
+
+body {
+  height: auto;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: #111 !important;
+}
+
+/** header */
+.brand {
+  color: #d98800;
+  letter-spacing: 2px;
+}
+
+.hero {
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  z-index: -1;
+  color: #d98800;
+  font-weight: 900;
+  letter-spacing: 20px;
+  font-size: 40px;
+}
+
+.text-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.highlighted {
+  color: #d98800;
+}
+
+.img-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/** header */
+
+/** main layout */
+/* bio-section */
+.bio {
+  margin-bottom: 100px;
+}
+
+.bio-img {
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.bio-text {
+  font-size: 18px;
+}
+/* bio-section */
+
+/* timeline-section */
+.timeline {
+  margin-bottom: 100px;
+}
+
+.timeline-list {
+  list-style-type: none;
+  width: 100%;
+}
+
+.event {
+  color: #fff;
+  padding: 20px;
+}
+
+.event b {
+  border-left: 3px solid #d98800;
+  padding-left: 5px;
+  color: #d98800;
+}
+/* timeline-section */
+/** main layout */
